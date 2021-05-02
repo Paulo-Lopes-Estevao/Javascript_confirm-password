@@ -12,6 +12,10 @@ body {
   font-style: 'Regular' !important;
 }
 
+.warnning-text{
+color: rgb(146, 66, 66);
+}
+
 .heading-small {
     padding-top: .25rem;
     padding-bottom: .25rem;
