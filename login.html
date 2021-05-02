@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+
+<html lang="pt-AO">
+
+<head>
+
+  <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+
+  <link rel="shortcut icon" href="" type="image/x-png"/>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <meta name="description" content="">
+
+  <meta name="author" content="Herlander Bento">
+
+  <title>AdminHCB</title>
+
+  <!-- Bootstrap  CSS -->
+  <link rel="stylesheet" href="vendor/library-HCB/Bootstrap v4.4.1/css/bootstrap.min.css">
+
+  <!-- Style  CSS -->
+  <link rel="stylesheet" href="vendor/library-HCB/style/style.css">
+
+  <!-- Font-awesome  CSS -->
+  <link rel="stylesheet" href="vendor/library-HCB/font-awesome/css/font-awesome.min.css">
+
+  <!-- Animate CSS -->
+  <!--link rel="stylesheet" href="vendor/library-HCB/animate/animate.min.css"-->
+
+  <!-- MDB CSS -->
+  <link rel="stylesheet" href="vendor/library-HCB/mdb/css/mdb.min.css">
+
+  <link rel="stylesheet" href="vendor/library-HCB/datatables/css/dataTables.bootstrap4.min.css">
+
+  <link rel="stylesheet" href="vendor/library-HCB/datatables/css/dataTables.bootstrap4.css">
+
+  <link rel="stylesheet" href="vendor/library-HCB/bootstrap-wysihtml5/bootstrap3-wysihtml5.css">
+
+
+
+</head>
+
+<body>
+  
+   <div id="login-banner">
+
+        <div class="container py-5">
+
+            <div class="row justify-content-center">
+
+                <div class="col-lg-4 login col-sm-6">
+
+                    <div class="login-heading">
+                        <div class="logo">
+                            <a href="#">
+                                <span class="logo"><b>P</b></span>
+                                <span class="logo-text">Paulo Lopes Estevão</span>
+                            </a>
+                        </div>
+                        <div class="title">
+                            <h5>Ola ! Bem-vindo ao login </h5>
+                            <span>Teste Conformar Password</span>
+                        </div>
+                    </div>
+                    <div class="body">
+                        <form action="#">
+
+                            <div class="form-group">
+                                <input type="text" class="form-control" required placeholder="Login" id="login">
+                            </div>
+
+                            <div class="form-group">
+                                <input type="password" class="form-control" required placeholder="Senha" id="myInput">
+                            </div>
+
+                            <div class="form-group">
+                                <button type="submit" class="btn btn-login col-12"> Login</button>
+                            </div>
+
+                            <div class="form-group form-check">
+                                <label class="form-check-label mr-5">
+                                    <input class="form-check-input" type="checkbox" onclick="myFunction()"> Mostrar Senha
+                                </label>
+
+                                <a href="#"> Esqueceu a senha ?</a>
+                            </div>
+
+                            <div class="form-group text-center">
+                                <button class="btn btn-facebook col-12"><i class="fa fa-facebook"></i><span>conecte usando facebook</span></button>
+                            </div>
+
+                            <div class="text-center pb-2">
+                                <a  class="create py-5" href="register.html"><span>Não tem conta?</span> <b>Crie</b></a>
+                            </div>
+                        </form>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+   </div>
+
+  <!-- /#wrapper -->
+
+  <!-- jQuery -->
+  <script src="vendor/library-HCB/jquery v3.4.1/jquery.min.js"></script>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/library-HCB/Bootstrap v4.4.1/js/bootstrap.bundle.min.js"></script>
+
+  <!-- MDB core JavaScript -->
+  <script src="vendor/library-HCB/mdb/mdb.js"></script>
+
+
+  <!-- Popper core JavaScript -->
+  <script src="vendor/library-HCB/mdb/js/popper.min.js"></script>
+
+  <script type="text/javascript">
+
+    // Inicializar wow
+    new WOW().init();
+
+    // Mostrar Senha
+    function myFunction() {
+        var passwordShow = document.getElementById("myInput");
+        if (passwordShow.type === "password") {
+            passwordShow.type = "text";
+        } else {
+            passwordShow.type = "password";
+        }
+    }
+
+</script>
+</body>
+
+</html>

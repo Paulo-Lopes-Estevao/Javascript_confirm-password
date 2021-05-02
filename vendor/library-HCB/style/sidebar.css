@@ -1,0 +1,227 @@
+/*--
+    *
+    * Equipa  : Walalétec - Soluções Tecnológicas
+    * Membros : António Gabriel, Aziel António, Filipe Gomes, Herlander Bento, Kelvín Domingos, Neiri Miúdo,  Paulo Estevão.
+    * Desenvolvido por : Herlander Bento.
+    * Data: 17/12/2019.
+    * Nota: III João 01:11
+    * " Amado, não siga o mal, mas o bem. Quem faz o bem é de Deus;
+    *   mas quem faz o mal não tem visto Deus  ".
+    *
+  -->
+*/
+
+body {
+  overflow-x: hidden;
+}
+
+#sidebar-wrapper {
+  min-height: 100vh;
+  margin-left: -15rem;
+  -webkit-transition: margin .25s ease-out;
+  -moz-transition: margin .25s ease-out;
+  -o-transition: margin .25s ease-out;
+  transition: margin .25s ease-out;
+}
+
+#sidebar-wrapper .sidebar-heading {
+  padding: 0.5rem 1.25rem;
+  font-size: 1.2rem;
+}
+
+#sidebar-wrapper .list-group {
+  width: 15rem;
+}
+
+#page-content-wrapper {
+  min-width: 100vw;
+}
+
+#wrapper.toggled #sidebar-wrapper {
+  margin-left: 0;
+}
+
+#wrapper.toggled .perfil-description .nav .nav-link{
+  margin: 28px 0;
+}
+/*
+#wrapper.toggled .social-source-items{
+  background-color: #ce1313 !important;
+  width: 500px !important;
+}*/
+@media screen and (max-width: 1600px)
+{
+  #wrapper.toggled .perfil-description .nav .nav-link{
+    margin: 11px 0 !important;
+  }
+  
+}
+
+@media (max-width: 1440px)
+{
+  #wrapper.toggled .perfil-description .nav .nav-link{
+    margin: 11px 0 !important;
+  }
+  
+}
+
+
+@media (max-width: 1280px){
+  #wrapper.toggled .perfil-description .nav{
+    margin-top: -5px;
+  }
+}
+
+
+@media (min-width: 1171px) {
+  #sidebar-wrapper {
+    margin-left: 0 ;
+  }
+
+  #page-content-wrapper {
+    min-width: 0;
+    width: 100%;
+  }
+
+  #wrapper.toggled #sidebar-wrapper {
+    margin-left: -15rem;
+  }
+}
+
+#sidebar-wrapper .sidebar-heading{
+  margin: 6px  0;
+  text-align: center;
+}
+
+
+#sidebar-wrapper .sidebar-heading a{
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #868686;
+  font-size: 16px;
+}
+
+#sidebar-wrapper .sidebar-heading a span.logo{
+  background: linear-gradient(100deg, #007ebc,#0f346d) ;
+  color: #ffffff;
+  padding: 10px 12px;
+  border-radius: 120px;
+  margin-right: 5px;
+}
+
+#sidebar-wrapper .sidebar-heading a span.logo-text{
+  letter-spacing: 3px;
+}
+#sidebar-wrapper .sidebar-user{
+  padding: 10px 0;
+}
+#sidebar-wrapper .sidebar-user div.photo{
+  max-width: 55px;
+  height: 55px;
+  padding: 5px;
+  margin-left: 15px;
+}
+
+/*/Dashboard-first*/
+#sidebar-wrapper div.sidebar-dashoards  div.photo{
+  max-width: 75px;
+  height: 75px;
+  background-color: #ffffff;
+  margin: 0px 15px;
+  border-radius: 120px;
+  text-align: center;
+  border: 1px solid #643e77;
+  padding: 5px;
+}
+
+#sidebar-wrapper div.sidebar-user div.photo img{
+  max-width: 100%;
+  border-radius: 120px;
+  height: 45px !important;
+}
+
+#sidebar-wrapper div.sidebar-user span{
+  display: block;
+  margin-left: 10px;
+}
+
+#sidebar-wrapper div.sidebar-user span.user{
+  padding: 9px 0 0 0;
+  color: #868686;
+  font-size: 13.5px;
+}
+
+#sidebar-wrapper div.sidebar-user  span.function{
+  color: #868686;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+#sidebar-wrapper .list-group-item{
+  border: none;
+}
+
+#sidebar-wrapper .dashboard{
+  background:  #007ebc;
+  color: #ffffff;
+  margin-left:  15px !important;
+  margin-right:  15px !important;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-radius: 10px;
+  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15)
+}
+
+
+#sidebar-wrapper .dashboard a{
+  color: #ffffff !important;
+}
+
+#sidebar-wrapper .list-group-item{
+  margin-left:  15px !important;
+  margin-right:  15px !important;
+}
+#sidebar-wrapper .list-group-item a{
+  background-color: transparent;
+  text-decoration: none;
+  color: #868686;
+  font-weight: 500;
+  font-size: 14px;
+  transition: all.3s ease-in;
+}
+
+
+#sidebar-wrapper .list-group-item:hover a{
+  color: #1f88e6;
+  transition: all.3s ease-in;
+}
+
+#sidebar-wrapper .list-group-item:hover .list-unstyled a{
+  color: #868686;
+}
+
+#sidebar-wrapper .list-unstyled{
+  padding-left: 1rem !important;
+}
+
+#sidebar-wrapper .list-unstyled li{
+  padding-top: 1rem !important;
+}
+#sidebar-wrapper .list-unstyled li a{
+  font-size: 12px;
+}
+#sidebar-wrapper .list-unstyled li .active{
+  color: #1f88e6 !important;
+  font-weight: 600;
+}
+#sidebar-wrapper .list-unstyled li:hover a{
+  color: #1f88e6 !important;
+  transition: all.3s ease-in;
+}
+
+#sidebar-wrapper .list-unstyled i{
+  padding-right: 0.5rem !important;
+}
+
+
