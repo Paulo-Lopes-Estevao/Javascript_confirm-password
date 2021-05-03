@@ -1,11 +1,10 @@
 # JavaScript
 
-Fazer confirmação de password
+> *Fazer confirmação de password*
 
-# Faça o teste aqui
-[Clica aqui](https://paulo-lopes-estevao.github.io/Javascript_confirm-password/)
+# Faça o teste aqui -> [Clica aqui](https://paulo-lopes-estevao.github.io/Javascript_confirm-password/)
 
-#### Trago um *algoritmo* que faz de forma rápida essa confirmação
+#### Trago um *algoritmo de busca* que faz de forma rápida confirmação de password
 
 ``` JS
 // JavaScript
@@ -36,3 +35,17 @@ function ConfirmPassword() {
 ## Confirmação corresponde a password
 
 ![img](img/yes.png)
+
+
+</br>
+<hr>
+
+# Faça o teste aqui -> [Clica aqui](https://paulo-lopes-estevao.github.io/Javascript_confirm-password/)
+
+
+
+
+
+<button style="background-color:green;border-radius:0.4rem">
+<a href="https://github.com/Paulo-Lopes-Estevao?tab=repositories" style="color:black;"> Ver mais </a>
+</button>
