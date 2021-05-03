@@ -5,7 +5,7 @@ Fazer confirmação de password
 # Faça o teste aqui
 [Clica aqui](https://paulo-lopes-estevao.github.io/Javascript_confirm-password/)
 
-#### Trago um *script* que faz de forma rápida essa confirmação
+#### Trago um *algoritmo* que faz de forma rápida essa confirmação
 
 ``` JS
 // JavaScript
