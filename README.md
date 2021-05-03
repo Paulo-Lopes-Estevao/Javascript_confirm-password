@@ -28,3 +28,11 @@ function ConfirmPassword() {
 }
 
 ```
+
+## Confirmação não corresponde a password
+
+![img](img/no.png)
+
+## Confirmação corresponde a password
+
+![img](img/yes.png)
